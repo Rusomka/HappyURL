@@ -1,0 +1,33 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 150px;
+
+    background-color: black;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+}
+
+.td {
+    width: 200px;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 150px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
